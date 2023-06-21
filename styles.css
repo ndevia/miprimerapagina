@@ -5,6 +5,7 @@
 body {
     background-color: #C3F8FF;
     color: #3b9cad;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container-nav {
@@ -48,13 +49,11 @@ a {
 }
 
 h1 {
-    font-family: Arial, sans-serif;
     font-size: 36px;
     text-align: center;
 }
 
 p {
-    font-family: Georgia, serif;
     font-size: 18px;
     padding: 10px;
     margin: 20px;
@@ -124,6 +123,13 @@ footer {
 
 main {
     min-height: 71vh;
+}
+
+.greeting {
+    text-align: center;
+    margin: 30px;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 @media (max-width: 768px) {
